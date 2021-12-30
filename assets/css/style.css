@@ -280,7 +280,9 @@ video {
 .nav-light .navbar-nav .active .nav-link:hover,
 .nav-light .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #f15e42;
+    color: #fff;
+    background: #365d74;
+    border-radius: 42px;
 }
 /* body.offcanvas-active{
 	overflow:hidden;
@@ -5915,7 +5917,7 @@ label.error {
     position: fixed;
     width: 100%;
     top: 0;
-    background: #f15e42;
+    background: #5485a3;
     padding: 0;
     box-shadow: none;
     z-index: 9;
@@ -5961,9 +5963,8 @@ label.error {
     color: #27304b;
 }
 .nav-oval .navbar-collapse{
-    background-color: #f15e42;
-    border-radius: 70px;    
-    background-color: #f15e42;
+    border-radius: 70px;
+    background-color: #5485a3;
     padding: 0 45px;
     margin: 0 -45px;
 }
@@ -6548,6 +6549,12 @@ label.error {
 .classic-gallery{
     padding-left: 8rem;
     padding-right: 8rem;
+}
+
+.tel{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
 }
 /* Home Classic Page */
 /*------------------------------------------*/
