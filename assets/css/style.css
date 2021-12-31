@@ -118,6 +118,9 @@ button, button:focus, button:hover {
 img {
     max-width: 100%;
     height: auto;
+    background: #fff;
+    padding: 8px 0 7px 10px;
+    border-radius: 5px;
 }
 video {
     background-size: cover;
@@ -6555,6 +6558,37 @@ label.error {
     margin-top: 12px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.blink{
+    width:200px;
+    height: 50px;
+    background-color: #98cb46;
+    padding: 15px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 5px;
+  }
+  span{
+    font-size: 16px;
+    font-family: cursive;
+    color: white;
+    animation: blink 1s linear infinite;
+  }
+@keyframes blink{
+0%{opacity: .1;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    margin-bottom: 0px;
+    padding-bottom: 19px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 /* Home Classic Page */
 /*------------------------------------------*/
